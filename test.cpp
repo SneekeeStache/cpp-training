@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 int main()
 {
+    /*
     //permet d'afficher du text
     std::cout << "hello world" << std::endl;
     //variable int
@@ -14,7 +16,7 @@ int main()
     //reference mon int
     int& maReferenceInt(monInt);
     std::cout << "mon int comme reference:" << maReferenceInt << std::endl;
-    
+
 
     int numUtilisateur;
     std::cout <<"entrer un numero" << std::endl;
@@ -52,5 +54,21 @@ int main()
     //le resultat de a sera 11 et b sera 11
     std::cout <<"mon int incrementé est actuellement a :"<< monIncrementation << std::endl;
     // le c++ supporte les +=, -=, *=, /=, %=
+    */
+
+    // fonction math
+    std::cout << "fonction math" << std::endl;
+    std::cout << "la racine de 16 est:" << std::sqrt(16) << std::endl;
+    // racine carré sqrt(x)
+    // sinus| sin(x)
+    // cosinus| cos(x)
+    // tangente| tan(x)
+    // exponentiel| exp(x)
+    // Logarithme népérien| log(x)
+    // Logarithme en base 10| log10(x)
+    // valeur absolue| fabs()
+    // arrondi vers le bas| floor()
+    // arrondi vers le haut| ceil()
+    // pour faire 4⁵| pow(4,5)
     return 0;
 }
