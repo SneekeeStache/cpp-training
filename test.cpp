@@ -56,19 +56,40 @@ int main()
     // le c++ supporte les +=, -=, *=, /=, %=
     */
 
-    // fonction math
-    std::cout << "fonction math" << std::endl;
-    std::cout << "la racine de 16 est:" << std::sqrt(16) << std::endl;
-    // racine carré sqrt(x)
-    // sinus| sin(x)
-    // cosinus| cos(x)
-    // tangente| tan(x)
-    // exponentiel| exp(x)
-    // Logarithme népérien| log(x)
-    // Logarithme en base 10| log10(x)
-    // valeur absolue| fabs()
-    // arrondi vers le bas| floor()
-    // arrondi vers le haut| ceil()
-    // pour faire 4⁵| pow(4,5)
+    /*
+     // fonction math
+     std::cout << "fonction math" << std::endl;
+     std::cout << "la racine de 16 est:" << std::sqrt(16) << std::endl;
+     // racine carré sqrt(x)
+     // sinus| sin(x)
+     // cosinus| cos(x)
+     // tangente| tan(x)
+     // exponentiel| exp(x)
+     // Logarithme népérien| log(x)
+     // Logarithme en base 10| log10(x)
+     // valeur absolue| fabs()
+     // arrondi vers le bas| floor()
+     // arrondi vers le haut| ceil()
+     // pour faire 4⁵| pow(4,5)
+
+     */
+    /*
+    // exemple condition
+    int monNumeroCondition;
+    std::cout << "taper un numero" << std::endl;
+    std::cin >> monNumeroCondition;
+    if (monNumeroCondition > 4)
+    {
+        std::cout << "mon numero est superieur a 4" << std::endl;
+    }
+    else if (monNumeroCondition < 4)
+    {
+        std::cout << "mon numero est inferieur a 4" << std::endl;
+    }
+    else
+    {
+        std::cout << "mon numero est 4" << std::endl;
+    }
+    */
     return 0;
 }
