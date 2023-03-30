@@ -91,5 +91,67 @@ int main()
         std::cout << "mon numero est 4" << std::endl;
     }
     */
+
+    // exemple switch
+    /*
+    int monNumeroSwitch;
+     std::cout << "taper un numero" << std::endl;
+     std::cin >> monNumeroSwitch;
+     switch (monNumeroSwitch)
+     {
+     case 0:
+          std::cout << "votre num est 0" << std::endl;
+         break;
+     case 1:
+          std::cout << "votre num est 1" << std::endl;
+         break;
+     case 2:
+          std::cout << "votre num est 2" << std::endl;
+         break;
+     default:
+         std::cout << "votre num est en dehors des choix" << std::endl;
+         break;
+     }
+     */
+    // combiner des condition:
+    /*
+     && veut dire "et"
+     || veut dire "ou"
+     ! veut dire "non"
+
+     "et" veut dire que les 2 condition doivent etre valide
+     "ou" veut dire que une des condition doit etre valide
+     "non" veut dire que la condition ne doit pas etre valide
+    */
+
+    // exemple while
+    /*
+    int i(0);
+    while (i < 3)
+    {
+        std::cout << i << std::endl;
+        i++;
+    }
+    */
+    // exemple do while
+    // dans ce cas la, la condition est tester que a la fin
+    /*
+    int i(0);
+    do
+    {
+        std::cout << i << std::endl;
+        i++;
+    }while (i < 3);
+    */
+
+    //exemple boucle for
+    //for(initialisation ; condition ; incrementation)
+    /*
+    int compteur(0);
+    for(compteur=0;compteur < 10; compteur++){
+        std::cout << compteur << std::endl;
+    }
+    */
+   
     return 0;
 }
