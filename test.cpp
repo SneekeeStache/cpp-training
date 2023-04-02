@@ -1,8 +1,27 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-int main()
+
+/*
+
+//exemple function
+//cette fonction prend 2 parametre et retourne la resultat de la multiplication de ses 2 parametre
+//une fonction peut prendre un type et dois retourner se type de variable ou bien on peut mettre void si ont ne peut pas que la fonction retourne quelque chose
+//attention mettre la fonction en dessous du main créer une erreur de compilation
+int Multiply(int a, int b)
 {
+    return  a * b;
+}
+
+void MultiplyAndLog(int a, int b){
+
+    int result = Multiply(a,b);
+    std::cout << result << std::endl;
+}
+
+*/
+//int main()
+//{
     /*
     //permet d'afficher du text
     std::cout << "hello world" << std::endl;
@@ -16,6 +35,23 @@ int main()
     //reference mon int
     int& maReferenceInt(monInt);
     std::cout << "mon int comme reference:" << maReferenceInt << std::endl;
+
+     // les type de variables primitive
+    // char 1bit | design un caractère "A" par exemple qui du coup a un identifier qui dans ce cas la est 65 donc sit mon char est egale a 65 au lieu de A il me retournera "A" a la compilation
+    // int 4bits | un nombre entier
+    // float 4 bits | nombre a virgule avec precision a 7 decimale | exemple de float | float variable = 5.5f;
+    // double 8 bits | nombre a virgule avec precision a 15 decimale | exemple de double | double var = 5.2;
+    // bool 1 bits | true ou false donc vrai ou faux equivalent a 1 pour true et 0 pour false| exemple de bool | bool variable = false;
+    //modificateur de variable
+    // short 2bits | un nombre entier entre -32768 et 32767
+    // long 4 bits | valeur entre -2147483647 et 2147483647 | peut etre utiliser sur plusieur type comme un int ou un float
+    // long long 8 bits | plus grande valeur
+    // unsign number est toujours positif et il permet d'avoir un bit de plus en enlevant les nombre negatif
+    // exemple: unsign int uneVariable = 8;
+    //sizeof(type) permet de voir le nombre de bits utiliser par un type
+
+    // pour faire un pointer il faut rajouter un * apres le type | exemple | bool* variable = false;
+    // pour fait une reference il faut rajouter & apres le type | voir exemple au dessus|
 
 
     int numUtilisateur;
@@ -54,6 +90,7 @@ int main()
     //le resultat de a sera 11 et b sera 11
     std::cout <<"mon int incrementé est actuellement a :"<< monIncrementation << std::endl;
     // le c++ supporte les +=, -=, *=, /=, %=
+
     */
 
     /*
@@ -152,6 +189,16 @@ int main()
         std::cout << compteur << std::endl;
     }
     */
-   
-    return 0;
-}
+    /*
+    //voici un exemple de comment utiliser la fonction que ont a réaliser
+    int result = Multiply(3,2);
+    std::cout<< result << std::endl;
+
+    //diviser en plusieur fonction permet de mieux s'organiser mais attention a ne pas abuser et rendre le program ilisible
+    //une bonne idée pour savoir si il faut créer une fonction est de se dire "est ce que je vais faire la meme chose plusieur fois"
+    MultiplyAndLog(3,2);
+    MultiplyAndLog(8,3);
+    */
+    //return 0;
+//}
+

@@ -1,0 +1,3 @@
+/home/kyle/CLionProjects/cpp-training/cmake-build-debug/CMakeFiles/cpp_training.dir
+/home/kyle/CLionProjects/cpp-training/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kyle/CLionProjects/cpp-training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
