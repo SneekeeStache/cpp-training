@@ -3,6 +3,6 @@
 
 
 int main(){
-
+    initLog();
     return 0;
 }
