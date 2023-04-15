@@ -2,6 +2,7 @@
 #include <iostream> //importe depuis le system
 #include <memory.h>
 
+
 int main(){
 
 }
