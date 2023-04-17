@@ -129,5 +129,4 @@ CMakeFiles/cpp_training.dir/main.cpp.o: \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc /usr/include/memory.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/12.2.1/array /usr/include/c++/12.2.1/compare
+ /usr/include/string.h /usr/include/strings.h
